@@ -119,4 +119,3 @@ for event in device.read_loop():
             elif event.value == 1:  # Right
                 ui.emit(BTN_MAP.get(1003, uinput.KEY_RIGHT), 1)
                 ui.emit(BTN_MAP.get(1003, uinput.KEY_RIGHT), 0)
-
