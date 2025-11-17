@@ -1,3 +1,9 @@
+'''
+created BY marinP/stuffbymax
+description: a tool thats allows user to use gamepad as keyboard
+License MIT
+'''
+
 import evdev
 import uinput
 import sys
