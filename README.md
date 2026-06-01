@@ -15,7 +15,7 @@ It effectively lets you use your game controller as a virtual keyboard device.
 
   * PlayStation 3 (PS3)
   * PlayStation 4 (PS4)
-  * Xbox 360 / Xbox One
+  * Xbox 360 / Xbox One / Xbox series
   * Generic gamepads (including those using hat axes for D-pad)
 * Maps controller buttons and D-pad directions to keyboard keys:
 
