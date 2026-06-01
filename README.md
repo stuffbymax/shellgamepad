@@ -122,3 +122,7 @@ sudo chmod 777 $controller.py
 ```
 
 > 777 will add read write execute permition to every one use ``chmod +x `` for security reasons
+
+### OS tested
+- arch
+- debian
