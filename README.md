@@ -1,4 +1,4 @@
-2## README MADE BY AI
+## README MADE BY AI
 ---
 
 # Controller-to-Keyboard Mapper (evdev + uinput)
