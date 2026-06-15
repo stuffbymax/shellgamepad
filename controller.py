@@ -2,13 +2,14 @@
 created BY marinP/stuffbymax
 description: Gamepad to keyboard mapper - supports PS3, PS4, PS5, Xbox 360, Xbox One, Xbox Series X/S
 License: MIT
-version: 0.0.4
+version: 0.0.4.1
 '''
 
 import evdev
 import uinput
 import sys
 import time
+import os
 
 KNOWN_CONTROLLERS = [
     "sony", "playstation", "dualshock", "dualsense", "sixaxis",
@@ -197,6 +198,8 @@ def main():
             device.ungrab()
         except Exception:
             pass
+# clear the messages after the script is done
+os.system('cls' if os.name == 'nt' else 'clear')
 
 if __name__ == "__main__":
     main()
